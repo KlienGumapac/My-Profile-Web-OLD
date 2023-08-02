@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-image: linear-gradient(to bottom right,rgb(100, 91, 91),rgb(87, 85, 85), rgb(100, 91, 91));
+}
+html {
+    scroll-behavior: smooth;
+  }
+.head {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    border-radius: 30px;
+}
+.logo {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+.logo:hover {
+    color: rgb(87, 85, 85);
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 10px;
+}
+.navbar a:hover  {
+    color: rgb(87, 85, 85);
+}
+.home {
+text-align: center;
+padding-top: 10vh;
+}
+.home-text h1 {
+    padding-top: 10vh;
+    font-size: 90px;
+}
+span {
+    color: white;
+}
+.home-text p {
+    font-weight: 500;
+    font-style: italic;
+    padding-bottom: 20%;
+}
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+    width: 100%;
+    padding-top: 10vh;
+}
+.about img {
+    height: 350px;
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+.about-text span {
+    color: white;
+}
+.about-text h1 {
+    margin: 0;
+}
+.about-text p {
+    color: white;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+.about-more {
+    height: 10%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: rgb(145, 224, 26);
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+}
+.about-more:hover {
+    color: white;
+}
+.profile-intro p {
+    padding-top: 5vh;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 5%;
+}
+.skill-head span {
+    color: white;
+}
+.skill {
+    padding-bottom: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.skills-head h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+.skills-content p {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+}
+.container {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+}
+.html {width: 70%; background-color: #055fe6;}
+.css {width: 40%; background-color: #e7ad0c;}
+.js {width: 15%; background-color: #e5ff00;}
+.php {width: 20%; background-color: #1f04bb;}
+.java {width: 60%; background-color: #0eb942;}
+
+.contact-form {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right:  10vh;
+    border-radius: 10px;
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+    width: 100%;
+    padding-top: 10vh;
+}
+input[type="text"],
+input[type="number"],  
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+.contact-text {
+    padding: 10px;
+}
+.contact-text p {
+    color: wheat;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+input[type="submit"] {
+    background-color: aqua;
+    color: black;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+input[type="submit"]:hover {
+    color: white;
+}
+.contact-social {
+    display: inline;
+    padding-right: 35px;
+}
+.contact-social a{
+    text-decoration: none;
+    font-size: 16px;
+    border: 1px solid greenyellow;
+    color: white;
+    border-width: 1px;
+    padding: 8px; 
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.contact-social a:hover {
+    background-color: greenyellow;
+    color: black;
+}
+.contact-social p {
+    color: white;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif
+}
+input[type=text],
+input[type=email],
+textarea {
+    border: 1px solid aqua;
+    border-radius: 5px;
+}
+.contact-head h1 {
+    text-align: center;
+    padding-top: 10vh;
+}
